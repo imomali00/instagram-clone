@@ -2,7 +2,7 @@
 defineProps({
     type: {
         type: String,
-        default: 'submit',
+        default: "submit",
     },
 });
 </script>
@@ -10,7 +10,7 @@ defineProps({
 <template>
     <button
         :type="type"
-        class="bg-[#0095F6] hover:bg-[#2150fa] w-full rounded-lg p-1.5 text-white text-lg font-extrabold"
+        class="bg-blue-500 hover:bg-blue-700 w-full rounded-lg p-1.5 text-white text-lg font-extrabold"
     >
         <slot />
     </button>
