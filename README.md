@@ -1,79 +1,66 @@
-# Instagram Clone (instagram-clone)
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-### Tutorial showing you how to build Instagram 
+<p align="center">
+<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
-If you'd like a step by step guide on how to build this just **CLICK THE IMAGE BELOW**
+## About Laravel
 
-[![GO TO JOHN WEEKS DEV TUTORIAL VIDEOS](https://user-images.githubusercontent.com/108229029/223138285-642a5296-2013-428c-a9d6-f27754c3a477.png)](https://www.youtube.com/watch?v=MjkamZQJY_8)
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-Come and check out my YOUTUBE channel for lots more tutorials -> https://www.youtube.com/@johnweeksdev
+-   [Simple, fast routing engine](https://laravel.com/docs/routing).
+-   [Powerful dependency injection container](https://laravel.com/docs/container).
+-   Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+-   Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+-   Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+-   [Robust background job processing](https://laravel.com/docs/queues).
+-   [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-**LIKE**, **SUBSCRIBE**, and **SMASH THE NOTIFICATION BELL**!!!
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## App Setup
+## Learning Laravel
 
-```
-git clone https://github.com/John-Weeks-Dev/instagram-clone.git
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-composer install 
+You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-cp .env.example .env 
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-php artisan cache:clear 
+## Laravel Sponsors
 
-composer dump-autoload 
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-php artisan key:generate
+### Premium Partners
 
-composer require laravel/breeze --dev
+-   **[Vehikl](https://vehikl.com/)**
+-   **[Tighten Co.](https://tighten.co)**
+-   **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+-   **[64 Robots](https://64robots.com)**
+-   **[Cubet Techno Labs](https://cubettech.com)**
+-   **[Cyber-Duck](https://cyber-duck.co.uk)**
+-   **[Many](https://www.many.co.uk)**
+-   **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
+-   **[DevSquad](https://devsquad.com)**
+-   **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
+-   **[OP.GG](https://op.gg)**
+-   **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
+-   **[Lendio](https://lendio.com)**
 
-php artisan breeze:install vue --ssr
+## Contributing
 
-php artisan serve
-```
-Create the DB
-```
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=instagram_clone
-DB_USERNAME=root
-DB_PASSWORD=
-```
-Now migrate your DB
-```
-php artisan migrate
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-```
+## Code of Conduct
 
-Now run this command to start the project 
-```
-npm i
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-npm run dev
-```
+## Security Vulnerabilities
 
-You should be good to go!
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-# Application Images
+## License
 
-<img width="1436" src="https://user-images.githubusercontent.com/108229029/222710711-fe1dc595-b7c5-4ab6-8783-2a1753cd4879.png">
-<img width="1436" src="https://user-images.githubusercontent.com/108229029/222711203-c00395d4-3f08-4c15-8bba-aef6fa0a736f.png">
-<img width="1436" src="https://user-images.githubusercontent.com/108229029/222711321-d9b50939-2d9c-494f-91d2-8f1926cf6ace.png">
-<img width="1436" src="https://user-images.githubusercontent.com/108229029/222712057-a34c9700-835d-4144-b958-cfad6d74e4dc.png">
-<img width="1436" src="https://user-images.githubusercontent.com/108229029/222712230-4d3a39fb-b6cf-4a29-a80b-e5b7882562c0.png">
-<img width="1436" src="https://user-images.githubusercontent.com/108229029/222712419-fc6755a7-6914-4fd1-b5c8-b704c7583f01.png">
-
-<div>
-    <img width="380" src="https://user-images.githubusercontent.com/108229029/222880031-b1c7d304-0e5e-483c-8d29-9da2e55cd133.png">
-    <img width="380" src="https://user-images.githubusercontent.com/108229029/222880056-9c2246a3-1981-492f-a90a-46daedb1c007.png">
-</div>
-
-<div>
-    <img width="300" src="https://user-images.githubusercontent.com/108229029/222713541-04e14e99-a672-46ff-8479-01045071a16e.png">
-    <img width="300" src="https://user-images.githubusercontent.com/108229029/222713690-df7d5217-217d-45ef-9c76-dd7668e7b044.png">
-    <img width="300" src="https://user-images.githubusercontent.com/108229029/222713748-1a2116ed-ce4c-47aa-b1fc-ff5e813529d2.png">
-</div>
-
-
-
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
